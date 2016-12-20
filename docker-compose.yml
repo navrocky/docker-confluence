@@ -1,0 +1,10 @@
+version: "2"
+services:
+  confluence:
+    image: navrocky/confluence:latest
+    ports:
+      - 8090:8090
+    volumes:
+      - confluence_data:/var/atlassian/confluence
+volumes:
+  confluence_data:

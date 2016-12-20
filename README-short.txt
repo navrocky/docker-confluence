@@ -1,0 +1,1 @@
+Confluence docker image based on Oracle JRE
